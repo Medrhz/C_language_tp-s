@@ -3,11 +3,10 @@
 
 void main()
 {
-
 	// =============== syntax ===================
 	/*
 	   ======== if ========
-	   if(){
+	      if(){
 			instuction
 			instuction
 			...
@@ -18,12 +17,12 @@ void main()
 			instuction
 			instuction
 			...
-			}
-			else{
-				instuction
-				instuction
-				...
-				}
+		}
+		else{
+			instuction
+			instuction
+			...
+		}
 	  ======== if - else if - else ========
 			if(condition){
 				}
