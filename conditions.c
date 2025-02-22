@@ -3,20 +3,39 @@
 
 void main()
 {
-	int age = 0;
-	printf("enter your age:\n");
-	scanf("%d", &age);
 
-	// et &&
-	// ou ||
-	// not !
+	// =============== syntax ===================
 	/*
-		"Poussin" de 6 � 7 ans
-		"Pupille" de 8 � 9 ans
-		"Minime" de 10 � 11 ans
-		"Cadet" apr�s 12 ans
-	*/
+	   ======== if ========
+	   if(){
+			instuction
+			instuction
+			...
+		}
 
+		======== if - else ========
+		if(condition){
+			instuction
+			instuction
+			...
+			}
+			else{
+				instuction
+				instuction
+				...
+				}
+	  ======== if - else if - else ========
+			if(condition){
+				}
+				else if(condition){
+					}else{
+						}
+						*/
+	//================= Example 1 ================
+	/*
+	int age = 0;
+	printf("Entrez votre age : ");
+	scanf("%d", &age);
 	if (age != 18)
 	{
 		printf("hello dear : \n");
@@ -27,6 +46,46 @@ void main()
 		printf("not valid\n");
 	}
 	printf("good by !");
+	*/
+
+	//================= Example 2 ================
+
+		// et &&
+	// ou ||
+	// not !
+	/*
+		"Poussin" de 6 � 7 ans
+		"Pupille" de 8 � 9 ans
+		"Minime" de 10 � 11 ans
+		"Cadet" apr�s 12 ans
+	*/
+	int age;
+
+	// Demander l'âge de l'utilisateur
+	printf("Entrez l'âge de l'enfant : ");
+	scanf("%d", &age);
+
+	// Détermination de la catégorie
+	if (age >= 6 && age <= 7)
+	{
+		printf("Catégorie : Poussin\n");
+	}
+	else if (age >= 8 && age <= 9)
+	{
+		printf("Catégorie : Pupille\n");
+	}
+	else if (age >= 10 && age <= 11)
+	{
+		printf("Catégorie : Minime\n");
+	}
+	else if (age >= 12)
+	{
+		printf("Catégorie : Cadet\n");
+	}
+	else
+	{
+		printf("Aucune catégorie disponible pour cet âge.\n");
+	}
 }
 
 /*
