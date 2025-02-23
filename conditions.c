@@ -25,11 +25,11 @@ void main()
 		}
 	  ======== if - else if - else ========
 			if(condition){
-				}
-				else if(condition){
-					}else{
-						}
-						*/
+			}
+			else if(condition){
+			}else{
+			}
+		*/
 	//================= Example 1 ================
 	/*
 	int age = 0;
